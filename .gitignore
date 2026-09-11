@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Logs / local outputs
+*.log
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# AgentCore local deployment metadata
+# Contains environment/account-specific runtime identifiers and is regenerated.
+.bedrock_agentcore.yaml
+
+# Local backups / diagnostics
+main.py.before-*
+*-debug-archive-*
+.bedrock_agentcore/
